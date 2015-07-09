@@ -1,0 +1,72 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/green" >
+
+    <ImageView
+        android:id="@+id/logoView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="48dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/wasabi_logo" 
+        android:layout_marginTop="80dp"
+        android:contentDescription="logo"/>
+
+    <EditText
+        android:id="@+id/login_senha_edittext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/login_usuario_edittext"
+        android:layout_alignRight="@+id/login_usuario_edittext"
+        android:layout_below="@+id/login_usuario_edittext"
+        android:layout_marginTop="22dp"
+        android:hint="@string/senha"
+        android:background="@drawable/roundedstyle"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/login_entrar_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/login_senha_edittext"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/roundedstyle"
+        android:text="@string/entrar" />
+
+    <!-- Button
+        android:id="@+id/mudar_servidor_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="60dp"
+        android:background="@drawable/roundedstyle"
+        android:text="@string/mudar_servidor" / -->
+
+    <!-- TextView
+        android:id="@+id/server_textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="21dp"
+        android:text="server" / -->
+
+    <EditText
+        android:id="@+id/login_usuario_edittext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/logoView"
+        android:layout_centerHorizontal="true"
+        android:ems="10"
+        android:background="@drawable/roundedstyle"
+        android:hint="@string/usuario"
+        android:inputType="textPersonName" >
+
+        <requestFocus />
+    </EditText>
+
+</RelativeLayout>

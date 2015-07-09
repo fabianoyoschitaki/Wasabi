@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">WasAbi</string>
+    <string name="action_settings">Settings</string>
+    <string name="usuario">Usuário</string>
+    <string name="senha">Senha</string>
+    <string name="entrar">Entrar</string>
+    <string name="title_activity_chat">ChatActivity</string>
+    <string name="digite_sua_mensagem">Digite sua mensagem</string>
+    <string name="enviar">Enviar</string>
+    <string name="mudar_servidor">Mudar Servidor</string>
+    <string name="digite_o_novo_servidor">Digite o novo servidor:</string>
+
+</resources>
